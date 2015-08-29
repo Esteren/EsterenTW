@@ -1,0 +1,14 @@
+caption: {{$:/language/SideBar/Contents/Caption}}
+created: 20140809114010378
+list: 
+list-before: $:/core/ui/SideBar/Open
+modified: 20150829221528550
+tags: $:/tags/SideBar
+title: $:/.ui/SideBar/Contents
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'toc'>>
+
+</div>
