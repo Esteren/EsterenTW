@@ -1,5 +1,10 @@
 # EsterenTiddlyWiki
 
+# Requirements
+
+* [NodeJS](https://nodejs.org/) `>v0.10`.
+* `NPM` installed globally, and available from command line.
+
 # Install
 
 Install dependencies:
