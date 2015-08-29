@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/Esteren/EsterenTW",
     "dependencies": {
-        "tiddlywiki": "^5.1.9"
+        "tiddlywiki": "5.1.9"
     }
 }
