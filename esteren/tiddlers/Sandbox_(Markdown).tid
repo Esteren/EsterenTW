@@ -1,6 +1,6 @@
 created: 20150829130239560
 field1: value1
-modified: 20150829221804344
+modified: 20150830164538142
 tags: Tag1 Tag2
 title: Sandbox (Markdown)
 type: text/x-markdown
@@ -13,3 +13,30 @@ This wiki **is** truely awesome.
  
 We're gonna make **huge** things with it.
 
+Les sauts à la ligne ne sont pas pris en compte.
+Ça continue à la suite dans un même paragraphe.
+
+Il y a deux syntaxes d'emphase, avec au choix le caractère `_` ou `*`. _Simple_ pour l'*italique*, __double__ pour le **gras**.
+
+    Un bloc de code se définit avec une indentation de 4 espaces.
+
+Exemple de [lien](http://tiddlywiki.com/) externe.
+
+> Une citation
+> 
+> Elle peut contenir plusieurs paragraphes
+>> avec plusieurs niveaux de citations
+> ## et des titres
+> * et des listes
+
+* Une liste non ordonnée
++ Plusieurs notations possibles
+  - indenter de 2 espaces pour faire des sous-items
+
+Une liste ordonnée utilise des chiffres suivis d'un point :
+
+2. Item
+  1. Sous-item
+8. L'ordre de la numérotation n'a pas d'importance
+
+* par contre, enchaîner des listes de nature différente n'est pas reconnu
