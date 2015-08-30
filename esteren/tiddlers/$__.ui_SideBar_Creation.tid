@@ -1,0 +1,16 @@
+caption: Création
+created: 20150830164717553
+list: 
+list-before: $:/core/ui/SideBar/More
+modified: 20150830172826346
+tags: $:/tags/SideBar
+title: $:/.ui/SideBar/Creation
+type: text/vnd.tiddlywiki
+
+"""
+Sandox ([[WikiText|Sandbox (WikiText)]] or [[Markdown|Sandbox (Markdown)]])
+"""
+
+<div class="tc-page-controls">
+<$transclude tiddler="$:/.ui/Buttons/new-glossary-term" mode="inline"/>
+</div>

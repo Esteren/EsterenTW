@@ -1,0 +1,11 @@
+caption: {{$:/.images/new-term-button}} nouveau terme
+created: 20150830165251197
+description: Créer un nouveau terme du glossaire
+modified: 20150830173130776
+title: $:/.ui/Buttons/new-glossary-term
+type: text/vnd.tiddlywiki
+
+<$button tooltip={{$:/.ui/Buttons/new-glossary-term!!description}} aria-label="nouveau terme" class=<<tv-config-toolbar-class>>>
+<$action-sendmessage $message="tm-new-tiddler" $param="$:/.skeletons/glossary-term" title="(nom du terme)" tags="divers"/>
+{{$:/.ui/Buttons/new-glossary-term!!caption}}
+</$button>

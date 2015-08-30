@@ -1,0 +1,72 @@
+created: 20150829221807182
+field1: value1
+modified: 20150830164621146
+tags: Tag1 Tag2
+title: Sandbox (WikiText)
+type: text/vnd.tiddlywiki
+
+test: value
+
+! Title 1
+
+This wiki ''is'' truely awesome.
+
+We're gonna make ''huge'' things with it.
+
+---
+
+Les sauts à la ligne simples ne sont pas pris en compte. Ça continue à la suite dans un même paragraphe.<br>À moins d'utiliser une balise html `<br>`.
+
+Les syntaxes d'emphase sont spécifiques, une pour l'//italique// et une pour le ''gras''. On peut aussi __souligner__, ~~barrer~~, mettre en ^^exposant^^ ou en ,,indice,,.
+
+```
+Un bloc de code.
+```
+
+Exemple de [ext[lien|http://tiddlywiki.com/]] externe, ou [[interne|Sandbox (Markdown)]].
+
+> Une citation simple
+> Avec plusieurs paragraphes
+>> plusieurs niveaux
+>* des listes
+> mais pas de titres
+
+<<<
+Un bloc de citation
+
+Il peut contenir plusieurs paragraphes
+
+> avec plusieurs niveaux de citations
+
+!! et des titres
+
+* et des listes
+
+"""
+Et des syntaxes
+qui ne fonctionnent
+qu'en mode "bloc"
+"""
+<<< sans oublier l'auteur
+
+* Listes à puces
+** Sous-item
+# Liste ordonnée
+## Sous-item 1
+## Sous-item 2
+; Terme
+: Définition
+* On peut aussi
+*# mélanger
+*#; les types
+*# de listes,
+*#: à sa guise
+*> y compris
+*># avec des citations !
+
+|!Titre A|!Titre B|!Titre C|!Titre D|!Titre E|
+|A1|>|C1 : fusion horizontale à droite|D1 : fusion horizontale à gauche|<|
+| A2 centrée |>|C2 alignée à gauche | D2 alignée à droite|<|
+|A3 : fusion verticale|^B3 en haut|,C3 en bas|^ D3 en haut centrée |E3|
+|~|~|~|~|E4|
+

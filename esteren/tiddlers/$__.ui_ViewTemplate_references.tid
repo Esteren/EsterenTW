@@ -1,0 +1,21 @@
+created: 20150830180247851
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20150830181352219
+tags: $:/tags/ViewTemplate
+title: $:/.ui/ViewTemplate/references
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]regexp:category[glossary]]">
+  <div class="ec-references">
+
+!! Références
+
+    <ul>
+      <$list filter="[all[current]fields[]prefix[book_]sort[title]]" variable="currentField">
+        <li>
+          <$transclude tiddler="$:/.data/books" index=<<currentField>>/> : <$transclude field=<<currentField>>/>
+        </li>
+      </$list>
+    </ul>
+  </div>
+</$list>

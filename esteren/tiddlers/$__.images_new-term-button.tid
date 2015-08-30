@@ -1,0 +1,15 @@
+created: 20150830170426258
+modified: 20150830171407016
+tags: $:/tags/Image
+title: $:/.images/new-term-button
+type: text/vnd.tiddlywiki
+
+<svg class="ec-image-new-term-button tc-image-button" viewBox="0 0 128 128" width="22pt" height="22pt">
+    <g fill-rule="evenodd">
+        <rect x="0" y="16" width="96" height="16" rx="8"></rect>
+        <rect x="0" y="46" width="96" height="16" rx="8"></rect>
+        <rect x="0" y="76" width="96" height="16" rx="8"></rect>
+        <rect x="96" y="80" width="16" height="48" rx="8"></rect>
+        <rect x="80" y="96" width="48" height="16" rx="8"></rect>
+    </g>
+</svg>
