@@ -1,0 +1,22 @@
+created: 20150830193603546
+list-before: $:/core/ui/ViewTemplate/subtitle
+modified: 20150830205321610
+tags: $:/tags/ViewTemplate
+title: $:/.ui/ViewTemplate/glossary-infos 1
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]regexp:category[glossary]]">
+  <div class="ec-glossary-infos-box" style="float:right">
+"""
+    <$list filter="[all[current]has[pronunciation]]">
+      Prononciation : {{!!pronunciation}}
+    </$list>
+    <$list filter="[all[current]has[plural]]">
+      Pluriel : {{!!plural}}
+    </$list>
+    <$list filter="[all[current]has[meaning]]">
+      Signification en langue ancienne : {{!!meaning}}
+    </$list>
+"""
+  </div>
+</$list>

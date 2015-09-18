@@ -1,0 +1,15 @@
+created: 20150830194003691
+modified: 20150830194338490
+tags: $:/tags/Stylesheet
+title: $:/.stylesheets/glossary
+type: text/vnd.tiddlywiki
+
+
+.ec-glossary-infos-box {
+	border: 1px solid <<colour message-border>>;
+	background: <<colour message-background>>;
+	padding: 0px 7px 0px 7px;
+	font-size: 12px;
+	line-height: 18px;
+	color: <<colour message-foreground>>;
+}
