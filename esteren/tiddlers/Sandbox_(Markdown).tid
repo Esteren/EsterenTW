@@ -1,6 +1,6 @@
 created: 20150829130239560
 field1: value1
-modified: 20150830164538142
+modified: 20150830202348244
 tags: Tag1 Tag2
 title: Sandbox (Markdown)
 type: text/x-markdown
@@ -20,7 +20,7 @@ Il y a deux syntaxes d'emphase, avec au choix le caractère `_` ou `*`. _Simple_
 
     Un bloc de code se définit avec une indentation de 4 espaces.
 
-Exemple de [lien](http://tiddlywiki.com/) externe.
+Exemple de [lien](http://tiddlywiki.com/) externe, ou [interne](#Sandbox (WikiText)).
 
 > Une citation
 > 
